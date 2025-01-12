@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Learning from '../components/Learning.vue'
+import LearningWord from '../components/LearningWord.vue'
 </script>
 
 <template>
   <main>
-    <Learning />
+    <LearningWord />
   </main>
 </template>

@@ -19,12 +19,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   data() {
     return {
       newWord: "", // To store the user's input
-      result: null // To display the result after checking
+      result: "" // To display the result after checking
     };
   },
   methods: {
